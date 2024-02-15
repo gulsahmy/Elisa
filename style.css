@@ -41,10 +41,10 @@ body{
 }
 .mattel input{
     border: 1px solid gray;
-    width: 25rem;
+    width: 15rem;
     border-radius: 25px;
     padding: 10px;
-    height: 3rem;
+    height: 2rem;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -71,7 +71,7 @@ body{
 
 }
 ::placeholder{
-    font-size: medium;
+    font-size: small;
     font-weight: bold;
 }
 .barbie{
@@ -407,4 +407,133 @@ h6{
 .param{
     font-weight: 100;
 }
+
+
+
+
+
+@media screen and (max-width:1400px){
+    .reveal1{
+        z-index: 5;      
+    }
+
+    .rsmyazı h1{
+        font-size: x-large;
+        font-weight: bold;        
+    }  
+    
+    .rsmyazı p{
+        font-weight: 50;        
+    }
+    .rsmyazı button{
+        width: 6rem;
+        font-size: medium;
+        height: 2rem;
+    }
+    
+}
+@media screen and (max-width:1220px) {
+
+    .sonpar button{
+        display: none;
+        
+    }
+       
+}
+@media screen and (max-width:1000px) {
+    
+    .reveal{
+        display: flex;
+        flex-direction: column;
+       
+        
+    }
+    .sabit{
+        display: none;
+    }
+    .rsmyazı{
+        overflow: auto;
+    }
+}
+@media screen and (max-width:973px){
+
+   .ana-div{
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+   } 
+      .tüm{
+    flex-direction: column;
+    
+   }
+       
+}
+@media screen and(max-width:750px) {
+    .tası{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        
+        padding-top: 50px;
+        height: 30rem;
+       
+    }
+    
+}
+@media screen and (max-width:610px) {
+
+    #grid-container{
+        height: 100vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: minmax(100px, 1fr);
+    } 
+    .sonpar{
+        z-index: 1;
+        width: 100%;
+    }
+    .grid{
+        z-index: 2;
+        display: none;
+    }
+    
+    
+}
+@media screen and(max-width:500px) {
+
+    .barbie2{
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }   
+   
+}
+@media screen and (max-width:460px) {
+    .rsmyazı p{
+        font-size: small;
+    }
+    .rsmyazı button{
+        display: none;
+    }
+    .sag-sabit{
+        display: none;
+    }
+    .mattel{
+        display: flex;
+        flex-direction: column;        
+    }
+    
+}
+@media screen and (max-width:260px) {
+    .mattel input{
+        display: none;
+    }  
+    
+}
+
+
+
+
+
+
 
